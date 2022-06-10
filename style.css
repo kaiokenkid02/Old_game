@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 400;
+  color: #212529;
+  text-align: left;
+}
+
+:root {
+  --primary-color: #57e2b2;
+  --color-bg: #2d2d2d;
+  --white-color: white;
+  --bg: #151414;
+  --p-color: #b9b9b9;
+  --logo-color: #e0e0e0;
+}
+
+/**/
+/*buton*/
+.btn {
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  text-decoration: none;
+}
+
+p {
+  color: var(--p-color);
+}
+
+.container {
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.slide-one {
+  background-image: url(../../../images/bg1.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.clear {
+  clear: both;
+}
+
+#header {
+  position: fixed;
+  margin-top: 40px;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 0 1rem;
+  z-index: 1000;
+}
+#header .nav__header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .nav__header .navbar-brand {
+  font-size: 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--white-color);
+}
+#header .nav__header .navbar-brand span {
+  margin-right: 9px;
+  color: var(--primary-color);
+}
+
+/*About the game*/
+#About-the-game {
+  padding-top: 3rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.header-name {
+  font-size: 38px;
+  line-height: 50px;
+  color: var(--primary-color);
+}
+.header-name__content {
+  font-size: 17px;
+  line-height: 28px;
+  margin: 25px 0 75px;
+  color: var(--p-color);
+}
+.header-name__content__title {
+  color: var(--p-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.header-name__content__title .title__content span {
+  font-size: 45px;
+  line-height: 55px;
+  color: white;
+}
+.header-name__content__title .title__content h4 {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/*img*/
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/*pic-wrapper*/
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  font-size: 0;
+}
+
+/*sectification*/
+#sectifycation {
+  background: url(../../../images/b3.jpg) no-repeat center;
+  background-size: cover;
+}
+#sectifycation .container__wrapper__title {
+  padding-top: 30px;
+  text-align: center;
+}
+#sectifycation .container__wrapper__title .back-color {
+  background-color: rgba(255, 255, 255, 0.18);
+  padding: 20px 20px;
+}
+#sectifycation .container__wrapper__title .back-color span {
+  font-size: 25px;
+  line-height: 35px;
+  color: #57e2b2;
+  margin-bottom: 25px;
+}
+#sectifycation .container__wrapper__title .back-color h4 {
+  margin-bottom: 10px;
+}
+#sectifycation .container__wrapper__title .back-color h4 .title_head {
+  text-decoration: none;
+  color: var(--logo-color);
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+#sectifycation .container__wrapper__title .back-color p.para {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
