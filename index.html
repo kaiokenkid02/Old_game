@@ -9,9 +9,11 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700&amp;display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&amp;display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://demo.w3layouts.com/assests/css/font-awesome.min.css" />
 </head>
 
 <body>
@@ -19,27 +21,29 @@
         <div class="container">
             <nav class="nav__header">
                 <h1>
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="./index.html">
                         <span class="fa fa-gamepad" aria-hidden="true"></span>Odd
                     </a>
                 </h1>
-                <button class="btn"><i class="fa fa-bars"></i></button>
+                <button class="btn btn-primary btn-menu">
+            <i class="fa fa-bars"></i>
+          </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a
+                            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="./about.html">About</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Games
                 </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a href="services.html" class="nav-link">Our Games </a>
-                                <a href="services-single.html" class="nav-link">Games Details
+                                <a href="./our-game.html" class="nav-link">Our Games </a>
+                                <a href="./game-details.html" class="nav-link">Games Details
                   </a>
                             </div>
                         </li>
@@ -48,12 +52,12 @@
                   Pages
                 </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="nav-link" href="portfolio.html">Gallery</a>
-                                <a class="nav-link" href="portfolio-single.html">Gallery Single</a
+                                <a class="nav-link" href="./game-gallery.html">Gallery</a>
+                                <a class="nav-link" href="./gallery-single.html">Gallery Single</a
                   >
-                  <a class="nav-link" href="team.html">Team</a>
-                                <a class="nav-link" href="team-single.html">Team Single</a>
-                                <a class="nav-link" href="timeline.html">Timeline</a>
+                  <a class="nav-link" href="./team.html">Team</a>
+                                <a class="nav-link" href="./team-single.html">Team Single</a>
+                                <!-- <a class="nav-link" href="timeline.html">Timeline</a>
                                 <a class="nav-link" href="faq.html">Faq</a>
                                 <a class="nav-link" href="pricing.html">pricing</a>
                                 <a class="nav-link" href="email-template.html">E-template</a>
@@ -61,7 +65,7 @@
                                 <a class="nav-link" href="coming-soon.html">Coming soon</a>
                                 <a class="nav-link" href="login.html">login</a>
                                 <a class="nav-link" href="signup.html">Sign up</a>
-                                <a class="nav-link" href="landing-single.html">Landingpage</a>
+                                <a class="nav-link" href="landing-single.html">Landingpage</a> -->
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -69,11 +73,11 @@
                   Blog
                 </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="nav-link" href="blog.html">Blog</a>
-                                <a class="nav-link" href="blog-single.html">Blog Single</a>
+                                <a class="nav-link" href="./blog.html">Blog</a>
+                                <!-- <a class="nav-link" href="blog-single.html">Blog Single</a> -->
                             </div>
                         </li>
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Shop
                 </a>
@@ -88,17 +92,17 @@
                     >Search Results</a
                   >
                 </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+              </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
                         </li>
                     </ul>
-                    </div>
+                </div>
             </nav>
-            </div>
+        </div>
     </header>
     <div class="slider">
-        <input type="radio" name="slider" id="" />
+        <input type="radio" name="slider" id="" checked="checked" />
         <div class="imgBx">
             <img src="./images/bg1.jpg" alt="bg1" />
             <div class="container">
@@ -111,7 +115,7 @@
                 </div>
             </div>
         </div>
-        <input type="radio" name="slider" id="" checked="checked" />
+        <input type="radio" name="slider" id="" />
         <div class="imgBx">
             <img src="./images/b2.jpg" alt="bg1" />
             <div class="container">
