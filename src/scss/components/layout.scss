@@ -1486,3 +1486,172 @@ img {
         }
     }
 }
+
+// login and sign up
+.wrapper-layout {
+    background: url(../../../images/bg1.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    .nav__header {
+        text-align: center;
+        padding: 6rem;
+    }
+    .form-form {
+        .login-content {
+            max-width: 400px;
+            margin: 0 auto;
+            .top {
+                background-color: var(--primary-color);
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                padding: 20px;
+                h3 {
+                    font-size: 25px;
+                    font-weight: 100;
+                    line-height: 30px;
+                }
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 25px;
+                    line-height: 30px;
+                    font-weight: 100;
+                    text-align: right;
+                }
+            }
+            .form__login-content {
+                background-color: white;
+                padding: 2rem 2rem;
+                .form-input {
+                    label {
+                        font-size: 16px;
+                        line-height: 25px;
+                        display: block;
+                        margin-top: 15px;
+                    }
+                    input[type="text"],
+                    input[type="email"],
+                    input[type="password"] {
+                        border: none;
+                        outline: none;
+                        width: 100%;
+                        font-size: 16px;
+                        padding: 8px 15px;
+                        margin-top: 5px;
+                        color: #000;
+                        border: 1px solid #b1b1b1;
+                        border-radius: 4px;
+                    }
+                }
+                .remember {
+                    font-size: 16px;
+                    line-height: 25px;
+                    display: block;
+                    margin: 25px 0;
+                }
+                button {
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+}
+
+.container {
+    .grid-row {
+        text-align: center;
+        margin-top: 20rem;
+    }
+    a {
+        text-decoration: none;
+        color: var(--primary-color);
+    }
+}
+
+// 404
+.wrapper-404 {
+    background: url(../../../images/b3.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    .search-404 {
+        max-width: 400px;
+        margin: 0 auto;
+        padding-top: 20%;
+        text-align: center;
+        h3 {
+            font-size: 9rem;
+            color: white;
+            font-weight: 100;
+        }
+        .rightside-form {
+            display: flex;
+            border: none;
+            border-bottom: 1px solid #b9b9b9;
+            margin-top: 27px;
+            background: transparent;
+            .search-404 {
+                background: transparent;
+                border: none;
+                padding: 5px 0px;
+                font-size: 16px;
+                line-height: 30px;
+                color: #fff;
+                width: 100%;
+                text-align: left;
+            }
+        }
+    }
+}
+
+.mt3r {
+    margin-top: 3rem;
+}
+
+.bg-transprarent {
+    background-color: transparent;
+}
+
+// ecommerce
+.ecommerce-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    @media screen and (min-width: 385px) {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+    }
+    @media screen and (min-width: 992px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .ecommerce-items {
+        &__column {
+            background: rgba(255, 255, 255, 0.18);
+            padding: 20px 20px;
+            h4 {
+                text-align: center;
+                a {
+                    font-size: 20px;
+                    line-height: 25px;
+                    color: #b9b9b9;
+                    margin-top: 20px;
+                    text-decoration: none;
+                    display: inline-block;
+                }
+            }
+        }
+        &__cart {
+            ul {
+                display: grid;
+                align-items: center;
+                grid-template-columns: 1fr 1fr;
+                background: #272727;
+                li {
+                    display: inline-block;
+                    padding: 20px 0px;
+                    border-right: 1px solid #2d2d2d;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

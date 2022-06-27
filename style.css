@@ -1491,4 +1491,164 @@ img {
   text-decoration: none;
 }
 
+.wrapper-layout {
+  background: url(../../../images/bg1.jpg) no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.wrapper-layout .nav__header {
+  text-align: center;
+  padding: 6rem;
+}
+.wrapper-layout .form-form .login-content {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.wrapper-layout .form-form .login-content .top {
+  background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+}
+.wrapper-layout .form-form .login-content .top h3 {
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 30px;
+}
+.wrapper-layout .form-form .login-content .top a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 100;
+  text-align: right;
+}
+.wrapper-layout .form-form .login-content .form__login-content {
+  background-color: white;
+  padding: 2rem 2rem;
+}
+.wrapper-layout .form-form .login-content .form__login-content .form-input label {
+  font-size: 16px;
+  line-height: 25px;
+  display: block;
+  margin-top: 15px;
+}
+.wrapper-layout .form-form .login-content .form__login-content .form-input input[type=text],
+.wrapper-layout .form-form .login-content .form__login-content .form-input input[type=email],
+.wrapper-layout .form-form .login-content .form__login-content .form-input input[type=password] {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+  padding: 8px 15px;
+  margin-top: 5px;
+  color: #000;
+  border: 1px solid #b1b1b1;
+  border-radius: 4px;
+}
+.wrapper-layout .form-form .login-content .form__login-content .remember {
+  font-size: 16px;
+  line-height: 25px;
+  display: block;
+  margin: 25px 0;
+}
+.wrapper-layout .form-form .login-content .form__login-content button {
+  margin-bottom: 25px;
+}
+
+.container .grid-row {
+  text-align: center;
+  margin-top: 20rem;
+}
+.container a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.wrapper-404 {
+  background: url(../../../images/b3.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.wrapper-404 .search-404 {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 20%;
+  text-align: center;
+}
+.wrapper-404 .search-404 h3 {
+  font-size: 9rem;
+  color: white;
+  font-weight: 100;
+}
+.wrapper-404 .search-404 .rightside-form {
+  display: flex;
+  border: none;
+  border-bottom: 1px solid #b9b9b9;
+  margin-top: 27px;
+  background: transparent;
+}
+.wrapper-404 .search-404 .rightside-form .search-404 {
+  background: transparent;
+  border: none;
+  padding: 5px 0px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+  width: 100%;
+  text-align: left;
+}
+
+.mt3r {
+  margin-top: 3rem;
+}
+
+.bg-transprarent {
+  background-color: transparent;
+}
+
+.ecommerce-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+@media screen and (min-width: 385px) {
+  .ecommerce-wrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .ecommerce-wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.ecommerce-wrapper .ecommerce-items__column {
+  background: rgba(255, 255, 255, 0.18);
+  padding: 20px 20px;
+}
+.ecommerce-wrapper .ecommerce-items__column h4 {
+  text-align: center;
+}
+.ecommerce-wrapper .ecommerce-items__column h4 a {
+  font-size: 20px;
+  line-height: 25px;
+  color: #b9b9b9;
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+.ecommerce-wrapper .ecommerce-items__cart ul {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  background: #272727;
+}
+.ecommerce-wrapper .ecommerce-items__cart ul li {
+  display: inline-block;
+  padding: 20px 0px;
+  border-right: 1px solid #2d2d2d;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
